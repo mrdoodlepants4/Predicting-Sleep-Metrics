@@ -25,6 +25,9 @@ The Sleep Health and Lifestyle Dataset, presented in this report, is a synthetic
 
 The dataset is derived from [Kaggle](https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset/)\[1], comprising of 400 rows and columns, the dataset encapsulates a diverse array of variables, including sleep metrics, and different lifestyle factors. The factors the data provided includes sleep duration, sleep quality, physical activity levels, stress, and age. 
 
+The dataset can also be found on [Git](datasets/![image](https://github.com/mrdoodlepants4/Predicting-Sleep-Metrics/assets/16073547/b34fc2df-4984-4431-b42f-002a8d15a978).
+
+
 The authors states that the dataset also utilizes methods like filling in missing values and crafting new variables to mimic real-life situations. Imputation was also used to handle missing data and enhance the dataset’s completeness, while feature engineering involved crafting additional variables to make the dataset more comprehensive. 
 
 The model training is implemented in Jupyter and is available ![here](codes/Sleep%20Individual%20Project.ipynb).
@@ -102,7 +105,7 @@ Although we observe a linear relationship between age and sleep quality in the s
 ## 5. Discussion
 I found that the training accuracy of the model was 74% and 88% in predicting sleep hours and sleep quality respectively while the data was also split to a 8:2 ratio for testing. The observed relationships in the data varied in their interpretability, while some relationships made sense and aligned with modern research findings, others displayed weird correlations which should be further investigated.
 
-The study sets the stage for future research which builds upon current extractions to get a clearer understanding on factors affecting sleep patterns and different aspects of each factor. The models' accuracy in predicting sleep duration and sleep quality was also found to be on an adequate level. To support the observed relationships from this report, future studies should prioritize larger and more diverse datasets to gain a broader perspective. 
+The study sets the stage for future research which builds upon current extractions to get a clearer understanding on factors affecting sleep patterns and different aspects of each factor. The models' accuracy in predicting sleep duration and sleep quality was also found to be on an acceptable level. To support the observed relationships from this report, future studies should prioritize larger and more diverse datasets to gain a broader perspective. 
 
 ### 5.1 Future Work
 1. Dataset Expansion: Employ larger and more diverse datasets to enhance the generalizability of observed relationships.
