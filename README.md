@@ -30,7 +30,7 @@ The authors states that the dataset also utilizes methods like filling in missin
 The model training is implemented in Jupyter and is available here.
 
 Data Preview:
-![1](graph/1.png)
+![1](Predicting-Sleep-Metrics/graph/1.png)
 
 I have intentionally chosen a subset of columns from the dataset, specifically focusing on those that exclusively contain numerical values.
 
