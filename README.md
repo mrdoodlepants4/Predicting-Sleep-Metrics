@@ -25,7 +25,7 @@ The Sleep Health and Lifestyle Dataset, presented in this report, is a synthetic
 
 The dataset is derived from [Kaggle](https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset/)\[1], comprising of 400 rows and columns, the dataset encapsulates a diverse array of variables, including sleep metrics, and different lifestyle factors. The factors the data provided includes sleep duration, sleep quality, physical activity levels, stress, and age. 
 
-The dataset can also be found on [Git](datasets/![image](https://github.com/mrdoodlepants4/Predicting-Sleep-Metrics/assets/16073547/b34fc2df-4984-4431-b42f-002a8d15a978).
+The dataset can also be found on [Git](datasets/Sleep%20Health%20and%20Lifestyle%20Dataset).
 
 
 The authors states that the dataset also utilizes methods like filling in missing values and crafting new variables to mimic real-life situations. Imputation was also used to handle missing data and enhance the dataset’s completeness, while feature engineering involved crafting additional variables to make the dataset more comprehensive. 
