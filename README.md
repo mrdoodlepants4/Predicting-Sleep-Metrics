@@ -72,7 +72,9 @@ The R2 value of 0.88 indicates that the model can predict a person’s sleep qua
 
 ### 4.1 Visualizations
 #### 4.11 Sleep Duration Trends
+
 ![5](graph/5.png)
+
 Upon analyzing the graph, the relationship between exercise and sleep duration appears to be relatively flat. The non-linear orientation of the line of best fit suggests a limited linear correlation between these variables. External factors such as intensity and timing of exercise may contribute to the shaping relationship between exercise and sleep length.
 
 ![6](graph/6.png)
@@ -84,7 +86,9 @@ The variable stress level was chosen based on its impact on sleep duration. Nota
 Observing the visualization, there is a somewhat linear relationship which suggests that there is a tendency for sleep duration to vary with age. This finding explores age-related factors that could influence sleep patterns, such as physiological changes or shifts in lifestyle habits. While there is a somewhat linear relationship, health conditions may come with age, contributing to the overall variability in sleep duration.
 
 #### 4.12 Quality of Sleep Trends
+
 ![8](graph/8.png)
+
 Upon analyzing the scatter plot and the corresponding line of best fit, a somewhat linear relationship suggests that as individuals engage in more physical activity, the higher sleep quality they get. While the linear relationship is evident, other factors should be considered, such as stress and individual differences that may contribute to the overall variability in sleep quality.
 
 ![9](graph/9.png)
