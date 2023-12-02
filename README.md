@@ -102,11 +102,11 @@ Although we observe a linear relationship between age and sleep quality in the s
 ## 5. Discussion
 I found that the training accuracy of the model was 74% and 88% in predicting sleep hours and sleep quality respectively while the data was also split to a 8:2 ratio for testing. The observed relationships in the data varied in their interpretability, while some relationships made sense and aligned with modern research findings, others displayed weird correlations which should be further investigated.
 
-The study sets the stage for future research which build upon current extractions to get a clearer understanding on factors affecting sleep patterns and different aspects of each factor. The models accuracy in predicting sleep duration and sleep quality was also found to be on an adequate level. To support the observed relationships from this report, future studies should prioritize larger and more diverse datasets to gain a broader perspective. 
+The study sets the stage for future research which builds upon current extractions to get a clearer understanding on factors affecting sleep patterns and different aspects of each factor. The models' accuracy in predicting sleep duration and sleep quality was also found to be on an adequate level. To support the observed relationships from this report, future studies should prioritize larger and more diverse datasets to gain a broader perspective. 
 
 ### 5.1 Future Work
 1. Dataset Expansion: Employ larger and more diverse datasets to enhance the generalizability of observed relationships.
-2. Variable Exploration: Examines the specific influences of different types of physical activity, various stress relaxation techniques, and additional aspects of lifestyle to understand their impacts on sleep outcomes.
+2. Variable Exploration: Examines the specific influences of different types of physical activity, various stress relaxation techniques, and additional aspects of lifestyle to understand their impacts on sleep metrics.
 
 ## 6. References
 \[1]https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset
