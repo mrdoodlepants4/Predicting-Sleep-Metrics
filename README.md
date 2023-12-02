@@ -1,5 +1,5 @@
 # Predicting-Sleep-Metrics
-### Individual Project
+### Data Science Fundamentals - Individual Project 
 ### Peter Nguyen
 ### December 2, 2023
 
@@ -10,7 +10,7 @@ Sleep is a vital aspect of overall health and well-being, influencing various ph
 
 While the dataset is synthetic, the analysis aims to mirror real-world scenarios, offering illustrative findings that may be extracted and interventions in the field of sleep health.
 
-In pursuit of implementing a prediction model using multiple linear regression, I utilized w3schools as a resource to gain an understanding of the process.
+In pursuit of implementing a prediction model using multiple linear regression, I utilized [w3schools](https://www.w3schools.com/python/python_ml_multiple_regression.asp)\[3] as a resource to gain an understanding of the process.
 
 By delving into a wide range of variables, we seek to unravel the intricate dynamics that contribute to variations in sleep patterns.
 ### 1.1 Objectives/Research Questions
@@ -23,7 +23,7 @@ By delving into a wide range of variables, we seek to unravel the intricate dyna
 ## 2. Data Selection
 The Sleep Health and Lifestyle Dataset, presented in this report, is a synthetic dataset, acknowledging its origin as a product of artificial generation rather than real-world observations. 
 
-The dataset is derived from Kaggle[1], comprising of 400 rows and columns, the dataset encapsulates a diverse array of variables, including sleep metrics, and different lifestyle factors. The factors the data provided includes sleep duration, sleep quality, physical activity levels, stress, and age. 
+The dataset is derived from [Kaggle](https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset/)\[1], comprising of 400 rows and columns, the dataset encapsulates a diverse array of variables, including sleep metrics, and different lifestyle factors. The factors the data provided includes sleep duration, sleep quality, physical activity levels, stress, and age. 
 
 The authors states that the dataset also utilizes methods like filling in missing values and crafting new variables to mimic real-life situations. Imputation was also used to handle missing data and enhance the dataset’s completeness, while feature engineering involved crafting additional variables to make the dataset more comprehensive. 
 
@@ -90,5 +90,16 @@ I found that the training accuracy of the model was 74% and 88% in predicting sl
 ### 5.1 Future Work
 1. Dataset Expansion: Employ larger and more diverse datasets to enhance the generalizability of observed relationships.
 2. Variable Exploration: Examines the specific influences of different types of physical activity, various stress relaxation techniques, and additional aspects of lifestyle to understand their impacts on sleep outcomes.
+
+## References
+\[1]https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset
+
+\[2]https://seaborn.pydata.org/generated/seaborn.scatterplot.html
+
+\[3]https://www.w3schools.com/python/python_ml_multiple_regression.asp
+
+\[4]https://www.geeksforgeeks.org/learning-model-building-scikit-learn-python-machine-learning-library/
+
+\[5]https://scikit-learn.org/stable/modules/generated/sklearn.metrics.r2_score.html
 
 
