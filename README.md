@@ -27,7 +27,7 @@ The dataset is derived from [Kaggle](https://www.kaggle.com/datasets/uom190346a/
 
 The authors states that the dataset also utilizes methods like filling in missing values and crafting new variables to mimic real-life situations. Imputation was also used to handle missing data and enhance the dataset’s completeness, while feature engineering involved crafting additional variables to make the dataset more comprehensive. 
 
-The model training is implemented in Jupyter and is available ![here](codes/Sleep Individual Project.ipynb).
+The model training is implemented in Jupyter and is available ![here](codes/Sleep%20Individual%20Project.ipynb).
 
 Data Preview:
 ![1](graph/1.png)
@@ -40,8 +40,8 @@ Tools Used:
 2. Matplot
 3. Seaborn
 4. Scikit-learn
-* Sklearn.metrics - r2_score
-* Sklearn.mode_selection - train_test_split
+ * Sklearn.metrics - r2_score
+ * Sklearn.mode_selection - train_test_split
 
 Scikit Model Implemented:
 Multiple Regression Model
