@@ -58,7 +58,7 @@ The dataset encompasses variables such as age, sleep duration, sleep quality, ph
 To provide an initial overview and visually inspect potential relationships among the selected variables, a pairplot was generated. The pairplot visually presents scatter plots for each relationship and histograms for individual variables along the diagonal. This visualization aids in the identification of patterns and potential correlations between lifestyle factors and sleep metrics. 
 
 ## 4. Results
-After the analysis, I calculated the accuracy of my model. The accuracy metric provides an overall measure of how well the model’s predictions align with the actual values in the dataset. As a key metric for determining the accuracy of the implemented model, I used R2. The calculated R2 values provided insights into the variability between the model’s predictions and the actual data.
+After the analysis, I calculated the accuracy of my model. The accuracy metric provides an overall measure of how well the model’s predictions align with the actual values in the dataset. As a key metric for determining the accuracy of the implemented model, I used R^2. The calculated R^2 values provided insights into the variability between the model’s predictions and the actual data.
 
 Sleep Duration Prediction Accuracy(%):
 ![3](graph/3.png)
