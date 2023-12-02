@@ -12,7 +12,7 @@ While the dataset is synthetic, the analysis aims to mirror real-world scenarios
 
 In pursuit of implementing a prediction model using multiple linear regression, I utilized [w3schools](https://www.w3schools.com/python/python_ml_multiple_regression.asp)\[3], [Geeksforgeeks](https://www.geeksforgeeks.org/learning-model-building-scikit-learn-python-machine-learning-library/)\[4], and [Scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.r2_score.html)\[5] as resources to gain an understanding of the process.
 
-By delving into a wide range of variables, we seek to unravel the intricate dynamics that contribute to variations in sleep patterns.
+By delving into a wide range of variables, I seek to unravel the intricate dynamics that contribute to variations in sleep patterns.
 ### 1.1 Objectives/Research Questions
 1. How well does the multiple linear regression model predict how many hours of sleep a person gets based on lifestyle and health factors?
 
