@@ -37,17 +37,17 @@ I have intentionally chosen a subset of columns from the dataset, specifically f
 
 ## 3. Methodology
 Tools Used:
-1. Pandas
-2. Matplot
-3. Seaborn
-4. Scikit-learn
+* Pandas
+* Matplot
+* Seaborn
+* Scikit-learn
   * Sklearn.metrics - r2_score
   * Sklearn.mode_selection - train_test_split
 
 Scikit Model Implemented:
 Multiple Regression Model
 
-In this analysis, we employed multiple regression as a statistical method to explore the relationship between multiple independent variables and a dependent variable. Multiple linear regression allows us to model the impact of several factors simultaneously, providing insights into their collective influence on the target variable. We chose this method for its versatility and ability to handle complex relationships in my dataset. The model assumes that each data point varies independently from others, recognizing that in reality, there may be situations where variation isn’t always present. To implement the multiple regression model, we utilized the ‘linear_model’ module in Scikit-learn’s library in Python. The ‘LinearRegression()’ function from Scikit-learn was also used to train and predict data. This function significantly contributed to shaping my analysis.
+In this analysis, we employed multiple linear regression as a statistical method to explore the relationship between multiple independent variables and a dependent variable. Multiple linear regression allows us to model the impact of several factors simultaneously, providing insights into their collective influence on the target variable. We chose this method for its versatility and ability to handle complex relationships in my dataset. The model assumes that each data point varies independently from others, recognizing that in reality, there may be situations where variation isn’t always present. To implement the multiple regression model, we utilized the ‘linear_model’ module in Scikit-learn’s library in Python. The ‘LinearRegression()’ function from Scikit-learn was also used to train and predict data. This function significantly contributed to shaping my analysis.
 
 ### 3.1 Variables
 The dataset encompasses variables such as age, sleep duration, sleep quality, physical activity level, stress levels, BMI category, blood pressure, heart rate, daily steps, and the existence or lack of sleep disorders. For the purpose of this study, I focused on the complexity of the relationships between age, exercise, stress levels, and sleep quantity & quality.
