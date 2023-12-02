@@ -10,7 +10,7 @@ Sleep is a vital aspect of overall health and well-being, influencing various ph
 
 While the dataset is synthetic, the analysis aims to mirror real-world scenarios, offering illustrative findings that may be extracted and interventions in the field of sleep health.
 
-In pursuit of implementing a prediction model using multiple linear regression, I utilized [w3schools](https://www.w3schools.com/python/python_ml_multiple_regression.asp)\[3] as a resource to gain an understanding of the process.
+In pursuit of implementing a prediction model using multiple linear regression, I utilized [w3schools](https://www.w3schools.com/python/python_ml_multiple_regression.asp)\[3], [Geeksforgeeks](https://www.geeksforgeeks.org/learning-model-building-scikit-learn-python-machine-learning-library/)\[4], and [Scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.r2_score.html)\[5] as resources to gain an understanding of the process.
 
 By delving into a wide range of variables, we seek to unravel the intricate dynamics that contribute to variations in sleep patterns.
 ### 1.1 Objectives/Research Questions
@@ -60,37 +60,37 @@ To provide an initial overview and visually inspect potential relationships amon
 After the analysis, I calculated the accuracy of my model. The accuracy metric provides an overall measure of how well the model’s predictions align with the actual values in the dataset. As a key metric for determining the accuracy of the implemented model, I used R2. The calculated R2 values provided insights into the variability between the model’s predictions and the actual data.
 
 Sleep Duration Prediction Accuracy(%):
-![3](3.png)
+![3](graph/3.png)
 
 The R2 value of 0.74 indicates that the model can predict a person’s sleep hours with an accuracy of 74%. In other words, 74% of the variability in sleep hours is explained by the model's predictions.
 
 Sleep Quality Prediction Accuracy(%):
-![4](4.png)
+![4](graph/4.png)
 
 The R2 value of 0.88 indicates that the model can predict a person’s sleep quality scale with an accuracy of 88%. The model accurately predicts a person's quality of sleep 88% of the time based on the calculations.
 
 ### 4.1 Visualizations
 #### 4.11 Sleep Duration Trends
-![5](5.png)
+![5](graph/5.png)
 Upon analyzing the graph, the relationship between exercise and sleep duration appears to be relatively flat. The non-linear orientation of the line of best fit suggests a limited linear correlation between these variables. External factors such as intensity and timing of exercise may contribute to the shaping relationship between exercise and sleep length.
 
-![6](6.png)
+![6](graph/6.png)
 
 The variable stress level was chosen based on its impact on sleep duration. Notably, there is a negative linear correlation between stress levels and sleep duration. The trend indicates that, on average, lower stress levels are associated with increased sleep duration. This finding aligns with the concept that reduced stress may positively impact sleep, potentially through reduced sleep disturbances which can be caused through stress.
 
-![7](7.png)
+![7](graph/7.png)
 
 Observing the visualization, there is a somewhat linear relationship which suggests that there is a tendency for sleep duration to vary with age. This finding explores age-related factors that could influence sleep patterns, such as physiological changes or shifts in lifestyle habits. While there is a somewhat linear relationship, health conditions may come with age, contributing to the overall variability in sleep duration.
 
 #### 4.12 Quality of Sleep Trends
-![8](8.png)
+![8](graph/8.png)
 Upon analyzing the scatter plot and the corresponding line of best fit, a somewhat linear relationship suggests that as individuals engage in more physical activity, the higher sleep quality they get. While the linear relationship is evident, other factors should be considered, such as stress and individual differences that may contribute to the overall variability in sleep quality.
 
-![9](9.png)
+![9](graph/9.png)
 
 In the visualization, we can extract a distinct negatively linear relationship between the sleep quality and the stress levels of a person. While the observed negative linear relationship between stress and quality of sleep is present, it should also be taken into account how sparse the data points are in the scatter plot. The limited number of data points may affect the accuracy of the linear trend observed. Further studies with larger and more diverse datasets are recommended to strengthen the reliability of the observed relationship.
 
-![10](10.png)
+![10](graph/10.png)
 
 Although we observe a linear relationship between age and sleep quality in the scatter plot, it’s important to note the limited number of data points, which may also affect the accuracy of this trend. In addition, a broader dataset should be considered for a better understanding and account for the inherent variability in this relationship.
 
