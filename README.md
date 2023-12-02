@@ -30,6 +30,7 @@ The authors states that the dataset also utilizes methods like filling in missin
 The model training is implemented in Jupyter and is available here.
 
 Data Preview:
+![1](1.jpg)
 
 I have intentionally chosen a subset of columns from the dataset, specifically focusing on those that exclusively contain numerical values.
 
@@ -91,7 +92,7 @@ I found that the training accuracy of the model was 74% and 88% in predicting sl
 1. Dataset Expansion: Employ larger and more diverse datasets to enhance the generalizability of observed relationships.
 2. Variable Exploration: Examines the specific influences of different types of physical activity, various stress relaxation techniques, and additional aspects of lifestyle to understand their impacts on sleep outcomes.
 
-## References
+## 6. References
 \[1]https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset
 
 \[2]https://seaborn.pydata.org/generated/seaborn.scatterplot.html
