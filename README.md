@@ -52,7 +52,7 @@ In this analysis, we employed multiple regression as a statistical method to exp
 The dataset encompasses variables such as age, sleep duration, sleep quality, physical activity level, stress levels, BMI category, blood pressure, heart rate, daily steps, and the existence or lack of sleep disorders. For the purpose of this study, I focused on the complexity of the relationships between age, exercise, stress levels, and sleep quantity & quality.
 
 ### 3.2 Relationship Exploration
-
+![2](graph/2.png)
 
 To provide an initial overview and visually inspect potential relationships among the selected variables, a pairplot was generated. The pairplot visually presents scatter plots for each relationship and histograms for individual variables along the diagonal. This visualization aids in the identification of patterns and potential correlations between lifestyle factors and sleep metrics. 
 
@@ -60,33 +60,44 @@ To provide an initial overview and visually inspect potential relationships amon
 After the analysis, I calculated the accuracy of my model. The accuracy metric provides an overall measure of how well the model’s predictions align with the actual values in the dataset. As a key metric for determining the accuracy of the implemented model, I used R2. The calculated R2 values provided insights into the variability between the model’s predictions and the actual data.
 
 Sleep Duration Prediction Accuracy(%):
+![3](3.png)
 
 The R2 value of 0.74 indicates that the model can predict a person’s sleep hours with an accuracy of 74%. In other words, 74% of the variability in sleep hours is explained by the model's predictions.
 
 Sleep Quality Prediction Accuracy(%):
+![4](4.png)
 
 The R2 value of 0.88 indicates that the model can predict a person’s sleep quality scale with an accuracy of 88%. The model accurately predicts a person's quality of sleep 88% of the time based on the calculations.
 
 ### 4.1 Visualizations
 #### 4.11 Sleep Duration Trends
-
+![5](5.png)
 Upon analyzing the graph, the relationship between exercise and sleep duration appears to be relatively flat. The non-linear orientation of the line of best fit suggests a limited linear correlation between these variables. External factors such as intensity and timing of exercise may contribute to the shaping relationship between exercise and sleep length.
 
+![6](6.png)
+
 The variable stress level was chosen based on its impact on sleep duration. Notably, there is a negative linear correlation between stress levels and sleep duration. The trend indicates that, on average, lower stress levels are associated with increased sleep duration. This finding aligns with the concept that reduced stress may positively impact sleep, potentially through reduced sleep disturbances which can be caused through stress.
+
+![7](7.png)
 
 Observing the visualization, there is a somewhat linear relationship which suggests that there is a tendency for sleep duration to vary with age. This finding explores age-related factors that could influence sleep patterns, such as physiological changes or shifts in lifestyle habits. While there is a somewhat linear relationship, health conditions may come with age, contributing to the overall variability in sleep duration.
 
 #### 4.12 Quality of Sleep Trends
-
+![8](8.png)
 Upon analyzing the scatter plot and the corresponding line of best fit, a somewhat linear relationship suggests that as individuals engage in more physical activity, the higher sleep quality they get. While the linear relationship is evident, other factors should be considered, such as stress and individual differences that may contribute to the overall variability in sleep quality.
+
+![9](9.png)
 
 In the visualization, we can extract a distinct negatively linear relationship between the sleep quality and the stress levels of a person. While the observed negative linear relationship between stress and quality of sleep is present, it should also be taken into account how sparse the data points are in the scatter plot. The limited number of data points may affect the accuracy of the linear trend observed. Further studies with larger and more diverse datasets are recommended to strengthen the reliability of the observed relationship.
 
+![10](10.png)
 
 Although we observe a linear relationship between age and sleep quality in the scatter plot, it’s important to note the limited number of data points, which may also affect the accuracy of this trend. In addition, a broader dataset should be considered for a better understanding and account for the inherent variability in this relationship.
 
 ## 5. Discussion
 I found that the training accuracy of the model was 74% and 88% in predicting sleep hours and sleep quality respectively while the data was also split to a 8:2 ratio for testing. The observed relationships in the data varied in their interpretability, while some relationships made sense and aligned with modern research findings, others displayed weird correlations which should be further investigated.
+
+The study sets the stage for future research which build upon current extractions to get a clearer understanding on factors affecting sleep patterns and different aspects of each factor. The models accuracy in predicting sleep duration and sleep quality was also found to be on an adequate level. To support the observed relationships from this report, future studies should prioritize larger and more diverse datasets to gain a broader perspective. 
 
 ### 5.1 Future Work
 1. Dataset Expansion: Employ larger and more diverse datasets to enhance the generalizability of observed relationships.
