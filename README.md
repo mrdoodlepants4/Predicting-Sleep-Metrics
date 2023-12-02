@@ -30,6 +30,7 @@ The authors states that the dataset also utilizes methods like filling in missin
 The model training is implemented in Jupyter and is available ![here](codes/Sleep%20Individual%20Project.ipynb).
 
 Data Preview:
+
 ![1](graph/1.png)
 
 I have intentionally chosen a subset of columns from the dataset, specifically focusing on those that exclusively contain numerical values.
@@ -40,8 +41,8 @@ Tools Used:
 2. Matplot
 3. Seaborn
 4. Scikit-learn
- * Sklearn.metrics - r2_score
- * Sklearn.mode_selection - train_test_split
+  * Sklearn.metrics - r2_score
+  * Sklearn.mode_selection - train_test_split
 
 Scikit Model Implemented:
 Multiple Regression Model
