@@ -41,6 +41,8 @@ I have intentionally chosen a subset of columns from the dataset, specifically f
 ## 3. Methodology
 Tools Used:
 * Pandas
+  * Dataframe() - Used to Visualize the dataset in my Notebook
+  * read_csv() - Used to read from the actual dataset
 * Matplot
 * Seaborn
 * Scikit-learn
