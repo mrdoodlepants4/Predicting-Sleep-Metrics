@@ -42,7 +42,7 @@ I have intentionally chosen a subset of columns from the dataset, specifically f
 Tools Used:
 * Pandas
   * Dataframe() - Used to Visualize the Dataset in my Notebook
-  * read_csv() - Used to read from the actual dataset
+  * read_csv() - Used to read from the dataset
 * Matplot
   * title() - Used to label the title of my Visualizations
   * subtitle() - Used to label the subtitle of my Visualizations
@@ -50,6 +50,10 @@ Tools Used:
   * xlabel() - Labels the x-axis on my graphs
   * ylabel() - Labels the y-axis on my graphs
 * Seaborn
+  * set() - Used to set the style of my visualizations
+  * pairplot() - Created a pairplot visualization to represent the relationship between factors
+  * scatterplot() - Used to create scatterplot visualizations between sleep metrics and lifestyle factors
+  * regplot()
 * Scikit-learn
   * Sklearn.metrics - r2_score - Predicts the relationship between dependent and independent variables
   * Sklearn.mode_selection - train_test_split - splits the dataset into training and testing subjects
